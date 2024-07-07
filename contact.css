@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.nav{
+    /* position: sticky; */
+    /* width: 100%; */
+    
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: #f9f8f8;
+   
+    
+}
+.ul1{
+    display: flex;
+    justify-content: space-between;
+
+}
+#sipspot{
+    font-family: "Pacifico", cursive;
+  font-weight: 300;
+  font-style: normal;
+  color: #365E32;
+}
+li{
+    list-style: none;
+    padding: 23px;
+    
+    
+}
+.logo-img{
+    width: 50px;
+    height: 50px;
+    margin-left: 3px;
+}
+
+.logo{
+    display: flex;
+}
+.logo h3{
+    padding: 16px;
+}
+.brandname{
+    font-family: "Ubuntu Mono", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+a{
+    text-decoration: none;
+    color: #81A263;
+}
+.logo a{
+    
+    color: #81A263;
+}
+.navlogo{
+    display: none;padding: 20px;
+}
+/* contact */
+.green{
+    width: 100%;
+    
+}
+.form{
+    
+    margin: 10px;
+}
+.name{
+    font-size: x-large;
+}
+input{
+    width: 200px;
+    height: 20px;
+}
+.form{
+    
+}
+footer{
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: space-around;
+}
+.socialmedia{
+    display: flex;
+    
+}
+.socialmedia div a i{
+    justify-content: space;
+    padding: 20px;
+}
+/* form */
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.getintouch{
+    font-family: "Pacifico", cursive;
+  font-weight: 300;
+  font-style: normal;
+  color: #E7D37F;
+}
+label{
+    color: #060806;
+}
+.studentreg{
+    border: 2px solid;
+    width: 300px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 50px;
+    box-shadow: 0 4px 30px hsla(0, 0%, 0%, 0.1);
+    backdrop-filter: blur(5px);
+}
+.button{
+    justify-content: center;
+    margin-left: px;
+}
+input{
+    width: 300px;
+    height: 30px;
+    border-radius: 4PX;
+    /* border-color: white; */
+}
+select{
+    width: 300px;
+    height: 30px;
+    border-radius: 4PX;
+}
+.entier{
+    background-image: url("./img.jpg");
+}
+.contactimg{
+    /* background-image: url("./img.jpg"); */
+}
+.copyright{
+    text-align: center;
+}
+/* hover */
+.ul1 a:hover{
+  color: #E7D37F;
+}
+.button:hover{
+    background-color: #365E32;
+}
+/* media */
+@media only screen and (max-width:600px) {
+    .navcontent{
+        display: none;
+    }
+    .navlogo{
+        display: block;
+    }
+    
+}

@@ -1,0 +1,238 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.nav{
+    position: fixed;
+    width: 100%;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: #ebe9e1;
+   
+    
+}
+.ul1{
+    display: flex;
+    justify-content: space-between;
+
+}
+.ul1 li{
+    list-style: none;
+}
+li{ 
+    padding: 20px; 
+}
+.logo-img{
+    width: 50px;
+    height: 50px;
+}
+
+.logo{
+    display: flex;
+}
+.logo h3{
+    padding: 18px;
+}
+.brandname{
+    font-family: "Ubuntu Mono", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+/* .navlogo{
+    display: none;
+    padding: 20px;
+} */
+/* after nav bar */
+
+.pryimg{
+    
+    width: 100%;
+    
+    height: auto;
+}
+/* content */
+.header-aboutus{
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+    font-weight: 500;
+}
+.header-aboutus{
+    font-size: xx-large;
+    font-weight: 500;
+    
+}
+.abtus{
+    text-align: center;
+}
+.weareopen{
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+}
+.abtus-para{
+    margin: 0 20% 0 20%;
+    
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.content1{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+.content1 div{
+    flex-basis: 40%;
+    justify-content: space-around;
+}
+.weareopencontent{
+    width: 800px;
+}
+#sipspot{
+    font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.header-aboutus{
+    font-size: 75px;
+}
+/* .tablecoff{
+    width: 300px;
+    height: 300px;
+} */
+.shopimg{
+    width: 300px;
+    height: 300px;
+}
+.tag1 div{
+    padding: 20px;
+}
+.tag2 div{
+    padding: 20px;
+}
+.awardimg{
+    width: 300px;
+    height: 300px;
+}
+.tag1 p{
+    width: 700px;
+    margin-top: 30PX;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+    font-size: x-large;
+    text-align: justify;
+}
+.tag1 div{
+    padding: 20px;
+
+}
+.tag2 p{
+    width: 700px;
+    margin-top: 30PX;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: x-large;
+    text-align: justify;
+   
+
+}
+.tag2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: left;
+}
+.tag1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: left;
+}
+
+@media only screen and (max-width:800px){
+    .pryimg{
+        margin: 0 ;  
+        
+        border-radius: 0px;
+    }
+}
+footer{
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: space-around;
+}
+.socialmedia{
+    display: flex;
+    
+}
+.socialmedia div a i{
+    justify-content: space;
+    padding: 20px;
+}
+.newlogo{
+    text-align: center;
+}
+.quote:hover{
+    color: rgb(248, 192, 123);
+
+}
+.quote{
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: xx-large;
+  
+    
+}
+.quote{
+    
+
+    color: #f8aa98;
+    cursor: pointer;
+    
+}
+.history{
+    text-align: center;
+}
+ul.year{
+    list-style-type: circle;
+}
+/* history */
+.point-icon{
+    display: flex;
+    
+}
+.point{
+    border: 2px solid;
+    background-color: antiquewhite;
+    
+}
+.group{
+    display: flex;
+}
+.ul1 a:hover{
+    color: green;
+}
+.copyright{
+    text-align: center;
+}
+@media only screen and (max-width:700px){
+    .navcontent{
+        display: none;
+    }
+    /* .navlogo{
+        display: block;
+        padding: 20px;
+    } */
+}

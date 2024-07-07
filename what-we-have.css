@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.nav{
+    position: static;
+    width: 100%;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: #F8FAE5;
+   
+    
+}
+.ul1{
+    display: flex;
+    justify-content: space-between;
+
+}
+.ul1 a{
+    color: #77200e;
+}
+li{
+    list-style: none;
+    padding: 23px;
+    
+}
+.logo-img{
+    width: 50px;
+    height: 50px;
+}
+.logo{
+    display: flex;
+}
+.logo h3{
+    padding: 18px;
+}
+.brandname{
+    font-family: "Ubuntu Mono", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.logo a{
+    color: #43766C;
+}
+.navlogo{
+    display: none;padding: 20px;
+}
+/* content */
+img{
+    width: 300px;
+    height: 300px;
+}
+#sipspot{
+    font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #5ce9cd;
+}
+.title{
+    font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #4f1b03;
+}
+h4{
+    color: #e64833;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: x-large;
+}p{
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #0C1844;
+    font-size: larger;
+    text-align: justify;
+}
+.content{
+    
+    text-align: center;
+}
+.content p{
+    text-align: center;
+}
+.title{
+    font-size: xx-large;
+}
+@media only screen and (max-width:600px){
+    .navcontent{
+        display: none;
+    }
+}
+footer{
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: space-around;
+}
+.socialmedia{
+    display: flex;
+    
+}
+.socialmedia div a i{
+    justify-content: space;
+    padding: 20px;
+}
+.copyright{
+    text-align: center;
+}
+/* hover */
+.navcontent a:hover{
+    color: rgb(218, 91, 66);
+}
